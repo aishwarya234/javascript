@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function sample(str){
+if(str=="red")
+document.getElementById("hello").innerHTML="<font color=red>Red</font>";
+
+else if(str=="blue")
+
+document.getElementById("hello").innerHTML="<font color=blue>Blue</font>";
+else if(str=="green")
+
+document.getElementById("hello").innerHTML="<font color=green>Green</font>";
+else
+alert("invalid colour");
+
+}
+</script>
+
+</head>
+<body>
+<p id="hello">Displays colour here</p>
+<input type="button" value="red" onclick="sample('red')"></button>
+<input type="button" value="blue" onclick="sample('blue')"></button>
+<input type="button" value="green" onclick="sample('green')"></button>
+<input type="button" value="purple" onclick="sample('purp')"></button>
+
+
+</body>
+</html>
